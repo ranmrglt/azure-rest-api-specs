@@ -145,8 +145,10 @@
             }
           },
           "securityProfile": {
-            "azureDefender": {
-              "enabled": true,
+            "defender": {
+              "securityMonitoring":{
+                "enabled": true
+              },
               "logAnalyticsWorkspaceResourceId": "/subscriptions/SUB_ID/resourcegroups/RG_NAME/providers/microsoft.operationalinsights/workspaces/WORKSPACE_NAME"
             }
           }
@@ -237,8 +239,10 @@
             }
           },
           "securityProfile": {
-            "azureDefender": {
-              "enabled": true,
+            "defender": {
+              "securityMonitoring":{
+                "enabled": true
+              },
               "logAnalyticsWorkspaceResourceId": "/subscriptions/SUB_ID/resourcegroups/RG_NAME/providers/microsoft.operationalinsights/workspaces/WORKSPACE_NAME"
             }
           }
